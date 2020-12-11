@@ -1,0 +1,18 @@
+Package: shuting
+Type: Package
+Title: Data Wrangling
+Version: 0.1.0
+Author: MAE - Shuting Yin
+Maintainer: The package maintainer <sy1202856@g.ucla.edu>
+Description: MAE 2020 FALL project (5 functions functions and/or datasets with documentation)
+License: MIT
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    utils,
+    ggplot2,
+    primes,
+    jsonlite
+RoxygenNote: 7.1.1
+Depends: 
+    R (>= 2.10)
