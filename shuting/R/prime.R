@@ -8,6 +8,7 @@
 #' @examples
 #' prime(100)
 #' Find out all prime numbers from 1 to 100
+usethis::use_package("prime")
 prime = function(n){
   temp=c()
   for (i in 1:n) {
