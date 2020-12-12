@@ -1,5 +1,5 @@
 #' Find out all prime numbers from 1 to N
-#'
+#' @import primes
 #' @param n The last number to be tested
 #'
 #' @return Return a list of prime numbers from 1 to N
