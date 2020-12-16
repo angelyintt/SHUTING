@@ -8,8 +8,8 @@
 #' @examples
 #' prime(100)
 #' Find out all prime numbers from 1 to 100
-library(primes)
 prime = function(n){
+  library(primes)
   temp=c()
   for (i in 1:n) {
     if(is_prime(i)==TRUE){
